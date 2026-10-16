@@ -1,0 +1,43 @@
+// ============================================================
+//  KuhMuhWeide – Grundeinstellungen im Stil von Ragnarok Zero
+//  Datei: conf/import/battle_conf.txt  (nur auf dem MAP-Server)
+//  Übernehmen: Map-Server neu starten oder im Spiel @reloadbattleconf
+// ============================================================
+
+// --- Raten --------------------------------------------------
+// Zero ist bewusst langsam (offiziell ~1x + Quests). Für eine kleine
+// Community ist 2x ein guter Kompromiss. 100 = 1x, 200 = 2x.
+base_exp_rate: 200
+job_exp_rate: 200
+quest_exp_rate: 200
+
+// Drops: normale Items 2x, Karten und MVP-Drops bleiben selten (1x),
+// damit sie wertvoll bleiben.
+item_rate_common: 200
+item_rate_heal: 200
+item_rate_use: 200
+item_rate_equip: 200
+item_rate_card: 100
+item_rate_mvp: 100
+
+// Ein Kill gibt höchstens ein Level (klassisches Verhalten).
+multi_level_up: no
+
+// Todesstrafe: 1 % des aktuellen Levels (klassisch).
+// Bei Zero ist der Tod der größte Bremsklotz beim Leveln.
+death_penalty_type: 1
+death_penalty_base: 100
+death_penalty_job: 100
+
+// --- Party-Spiel ---------------------------------------------
+// Zero belohnt Gruppenspiel. Jedes weitere Mitglied in einer
+// Even-Share-Party gibt +10 % Gesamt-EXP.
+// Beispiel 5er-Party: 140 % / 5 = 28 % pro Person statt 20 %.
+party_even_share_bonus: 10
+
+// AFK-Mitglieder (5 Minuten ohne Aktion) bekommen keinen EXP-Anteil.
+idle_no_share: 300
+
+// --- Komfort --------------------------------------------------
+// Monster-HP in Prozent und Monster-Level neben dem Namen (2 = HP %, 4 = Level, 6 = beides)
+show_mob_info: 6

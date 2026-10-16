@@ -1,0 +1,985 @@
+# KuhMuhWeide – Affix-Pools (AUTOMATISCH ERZEUGT aus affixe.csv)
+# Aktives Kapitel: 1  |  aktive Affixe: 18
+# Nicht von Hand bearbeiten – affixe.csv aendern und gen_gruppen.py erneut ausfuehren.
+
+Header:
+  Type: RANDOM_OPTION_GROUP
+  Version: 1
+
+Body:
+  - Id: 1
+    Group: AFFIX_T1
+    MaxRandom: 3
+    Random:
+      - Option: VAR_MAXHPAMOUNT
+        MinValue: 10
+        MaxValue: 30
+        Chance: 3700
+      - Option: VAR_MAXSPAMOUNT
+        MinValue: 5
+        MaxValue: 15
+        Chance: 3700
+      - Option: VAR_STRAMOUNT
+        MinValue: 1
+        MaxValue: 1
+        Chance: 3700
+      - Option: VAR_AGIAMOUNT
+        MinValue: 1
+        MaxValue: 1
+        Chance: 3700
+      - Option: VAR_VITAMOUNT
+        MinValue: 1
+        MaxValue: 1
+        Chance: 3700
+      - Option: VAR_INTAMOUNT
+        MinValue: 1
+        MaxValue: 1
+        Chance: 3700
+      - Option: VAR_DEXAMOUNT
+        MinValue: 1
+        MaxValue: 1
+        Chance: 3700
+      - Option: VAR_LUKAMOUNT
+        MinValue: 1
+        MaxValue: 1
+        Chance: 3700
+      - Option: VAR_HPACCELERATION
+        MinValue: 2
+        MaxValue: 5
+        Chance: 3700
+      - Option: VAR_SPACCELERATION
+        MinValue: 2
+        MaxValue: 5
+        Chance: 3700
+      - Option: VAR_ATTPOWER
+        MinValue: 1
+        MaxValue: 3
+        Chance: 3700
+      - Option: VAR_HITSUCCESSVALUE
+        MinValue: 1
+        MaxValue: 3
+        Chance: 3700
+      - Option: VAR_ATTMPOWER
+        MinValue: 1
+        MaxValue: 3
+        Chance: 3700
+      - Option: VAR_ITEMDEFPOWER
+        MinValue: 1
+        MaxValue: 1
+        Chance: 3700
+      - Option: VAR_MDEFPOWER
+        MinValue: 1
+        MaxValue: 1
+        Chance: 3700
+      - Option: VAR_AVOIDSUCCESSVALUE
+        MinValue: 1
+        MaxValue: 3
+        Chance: 3700
+      - Option: VAR_PLUSAVOIDSUCCESSVALUE
+        MinValue: 1
+        MaxValue: 1
+        Chance: 3700
+      - Option: VAR_CRITICALSUCCESSVALUE
+        MinValue: 1
+        MaxValue: 1
+        Chance: 3700
+  - Id: 2
+    Group: AFFIX_T2
+    MaxRandom: 3
+    Random:
+      - Option: VAR_MAXHPAMOUNT
+        MinValue: 15
+        MaxValue: 45
+        Chance: 3700
+      - Option: VAR_MAXSPAMOUNT
+        MinValue: 8
+        MaxValue: 22
+        Chance: 3700
+      - Option: VAR_STRAMOUNT
+        MinValue: 2
+        MaxValue: 2
+        Chance: 3700
+      - Option: VAR_AGIAMOUNT
+        MinValue: 2
+        MaxValue: 2
+        Chance: 3700
+      - Option: VAR_VITAMOUNT
+        MinValue: 2
+        MaxValue: 2
+        Chance: 3700
+      - Option: VAR_INTAMOUNT
+        MinValue: 2
+        MaxValue: 2
+        Chance: 3700
+      - Option: VAR_DEXAMOUNT
+        MinValue: 2
+        MaxValue: 2
+        Chance: 3700
+      - Option: VAR_LUKAMOUNT
+        MinValue: 2
+        MaxValue: 2
+        Chance: 3700
+      - Option: VAR_HPACCELERATION
+        MinValue: 3
+        MaxValue: 8
+        Chance: 3700
+      - Option: VAR_SPACCELERATION
+        MinValue: 3
+        MaxValue: 8
+        Chance: 3700
+      - Option: VAR_ATTPOWER
+        MinValue: 2
+        MaxValue: 4
+        Chance: 3700
+      - Option: VAR_HITSUCCESSVALUE
+        MinValue: 2
+        MaxValue: 4
+        Chance: 3700
+      - Option: VAR_ATTMPOWER
+        MinValue: 2
+        MaxValue: 4
+        Chance: 3700
+      - Option: VAR_ITEMDEFPOWER
+        MinValue: 2
+        MaxValue: 2
+        Chance: 3700
+      - Option: VAR_MDEFPOWER
+        MinValue: 2
+        MaxValue: 2
+        Chance: 3700
+      - Option: VAR_AVOIDSUCCESSVALUE
+        MinValue: 2
+        MaxValue: 4
+        Chance: 3700
+      - Option: VAR_PLUSAVOIDSUCCESSVALUE
+        MinValue: 2
+        MaxValue: 2
+        Chance: 3700
+      - Option: VAR_CRITICALSUCCESSVALUE
+        MinValue: 2
+        MaxValue: 2
+        Chance: 3700
+  - Id: 3
+    Group: AFFIX_T3
+    MaxRandom: 3
+    Random:
+      - Option: VAR_MAXHPAMOUNT
+        MinValue: 20
+        MaxValue: 60
+        Chance: 3700
+      - Option: VAR_MAXSPAMOUNT
+        MinValue: 10
+        MaxValue: 30
+        Chance: 3700
+      - Option: VAR_STRAMOUNT
+        MinValue: 2
+        MaxValue: 2
+        Chance: 3700
+      - Option: VAR_AGIAMOUNT
+        MinValue: 2
+        MaxValue: 2
+        Chance: 3700
+      - Option: VAR_VITAMOUNT
+        MinValue: 2
+        MaxValue: 2
+        Chance: 3700
+      - Option: VAR_INTAMOUNT
+        MinValue: 2
+        MaxValue: 2
+        Chance: 3700
+      - Option: VAR_DEXAMOUNT
+        MinValue: 2
+        MaxValue: 2
+        Chance: 3700
+      - Option: VAR_LUKAMOUNT
+        MinValue: 2
+        MaxValue: 2
+        Chance: 3700
+      - Option: VAR_HPACCELERATION
+        MinValue: 4
+        MaxValue: 10
+        Chance: 3700
+      - Option: VAR_SPACCELERATION
+        MinValue: 4
+        MaxValue: 10
+        Chance: 3700
+      - Option: VAR_ATTPOWER
+        MinValue: 2
+        MaxValue: 6
+        Chance: 3700
+      - Option: VAR_HITSUCCESSVALUE
+        MinValue: 2
+        MaxValue: 6
+        Chance: 3700
+      - Option: VAR_ATTMPOWER
+        MinValue: 2
+        MaxValue: 6
+        Chance: 3700
+      - Option: VAR_ITEMDEFPOWER
+        MinValue: 2
+        MaxValue: 2
+        Chance: 3700
+      - Option: VAR_MDEFPOWER
+        MinValue: 2
+        MaxValue: 2
+        Chance: 3700
+      - Option: VAR_AVOIDSUCCESSVALUE
+        MinValue: 2
+        MaxValue: 6
+        Chance: 3700
+      - Option: VAR_PLUSAVOIDSUCCESSVALUE
+        MinValue: 2
+        MaxValue: 2
+        Chance: 3700
+      - Option: VAR_CRITICALSUCCESSVALUE
+        MinValue: 2
+        MaxValue: 2
+        Chance: 3700
+  - Id: 4
+    Group: AFFIX_T4
+    MaxRandom: 3
+    Random:
+      - Option: VAR_MAXHPAMOUNT
+        MinValue: 25
+        MaxValue: 75
+        Chance: 3700
+      - Option: VAR_MAXSPAMOUNT
+        MinValue: 12
+        MaxValue: 38
+        Chance: 3700
+      - Option: VAR_STRAMOUNT
+        MinValue: 2
+        MaxValue: 2
+        Chance: 3700
+      - Option: VAR_AGIAMOUNT
+        MinValue: 2
+        MaxValue: 2
+        Chance: 3700
+      - Option: VAR_VITAMOUNT
+        MinValue: 2
+        MaxValue: 2
+        Chance: 3700
+      - Option: VAR_INTAMOUNT
+        MinValue: 2
+        MaxValue: 2
+        Chance: 3700
+      - Option: VAR_DEXAMOUNT
+        MinValue: 2
+        MaxValue: 2
+        Chance: 3700
+      - Option: VAR_LUKAMOUNT
+        MinValue: 2
+        MaxValue: 2
+        Chance: 3700
+      - Option: VAR_HPACCELERATION
+        MinValue: 5
+        MaxValue: 12
+        Chance: 3700
+      - Option: VAR_SPACCELERATION
+        MinValue: 5
+        MaxValue: 12
+        Chance: 3700
+      - Option: VAR_ATTPOWER
+        MinValue: 2
+        MaxValue: 8
+        Chance: 3700
+      - Option: VAR_HITSUCCESSVALUE
+        MinValue: 2
+        MaxValue: 8
+        Chance: 3700
+      - Option: VAR_ATTMPOWER
+        MinValue: 2
+        MaxValue: 8
+        Chance: 3700
+      - Option: VAR_ITEMDEFPOWER
+        MinValue: 2
+        MaxValue: 2
+        Chance: 3700
+      - Option: VAR_MDEFPOWER
+        MinValue: 2
+        MaxValue: 2
+        Chance: 3700
+      - Option: VAR_AVOIDSUCCESSVALUE
+        MinValue: 2
+        MaxValue: 8
+        Chance: 3700
+      - Option: VAR_PLUSAVOIDSUCCESSVALUE
+        MinValue: 2
+        MaxValue: 2
+        Chance: 3700
+      - Option: VAR_CRITICALSUCCESSVALUE
+        MinValue: 2
+        MaxValue: 2
+        Chance: 3700
+  - Id: 5
+    Group: AFFIX_BOSS
+    Slots:
+      - Slot: 1
+        Options:
+          - Option: VAR_MAXHPAMOUNT
+            MinValue: 25
+            MaxValue: 75
+            Chance: 10000
+          - Option: VAR_MAXSPAMOUNT
+            MinValue: 12
+            MaxValue: 38
+            Chance: 10000
+          - Option: VAR_STRAMOUNT
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_AGIAMOUNT
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_VITAMOUNT
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_INTAMOUNT
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_DEXAMOUNT
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_LUKAMOUNT
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_HPACCELERATION
+            MinValue: 5
+            MaxValue: 12
+            Chance: 10000
+          - Option: VAR_SPACCELERATION
+            MinValue: 5
+            MaxValue: 12
+            Chance: 10000
+          - Option: VAR_ATTPOWER
+            MinValue: 2
+            MaxValue: 8
+            Chance: 10000
+          - Option: VAR_HITSUCCESSVALUE
+            MinValue: 2
+            MaxValue: 8
+            Chance: 10000
+          - Option: VAR_ATTMPOWER
+            MinValue: 2
+            MaxValue: 8
+            Chance: 10000
+          - Option: VAR_ITEMDEFPOWER
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_MDEFPOWER
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_AVOIDSUCCESSVALUE
+            MinValue: 2
+            MaxValue: 8
+            Chance: 10000
+          - Option: VAR_PLUSAVOIDSUCCESSVALUE
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_CRITICALSUCCESSVALUE
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+      - Slot: 2
+        Options:
+          - Option: VAR_MAXHPAMOUNT
+            MinValue: 25
+            MaxValue: 75
+            Chance: 10000
+          - Option: VAR_MAXSPAMOUNT
+            MinValue: 12
+            MaxValue: 38
+            Chance: 10000
+          - Option: VAR_STRAMOUNT
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_AGIAMOUNT
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_VITAMOUNT
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_INTAMOUNT
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_DEXAMOUNT
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_LUKAMOUNT
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_HPACCELERATION
+            MinValue: 5
+            MaxValue: 12
+            Chance: 10000
+          - Option: VAR_SPACCELERATION
+            MinValue: 5
+            MaxValue: 12
+            Chance: 10000
+          - Option: VAR_ATTPOWER
+            MinValue: 2
+            MaxValue: 8
+            Chance: 10000
+          - Option: VAR_HITSUCCESSVALUE
+            MinValue: 2
+            MaxValue: 8
+            Chance: 10000
+          - Option: VAR_ATTMPOWER
+            MinValue: 2
+            MaxValue: 8
+            Chance: 10000
+          - Option: VAR_ITEMDEFPOWER
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_MDEFPOWER
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_AVOIDSUCCESSVALUE
+            MinValue: 2
+            MaxValue: 8
+            Chance: 10000
+          - Option: VAR_PLUSAVOIDSUCCESSVALUE
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_CRITICALSUCCESSVALUE
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+      - Slot: 3
+        Options:
+          - Option: VAR_MAXHPAMOUNT
+            MinValue: 25
+            MaxValue: 75
+            Chance: 10000
+          - Option: VAR_MAXSPAMOUNT
+            MinValue: 12
+            MaxValue: 38
+            Chance: 10000
+          - Option: VAR_STRAMOUNT
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_AGIAMOUNT
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_VITAMOUNT
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_INTAMOUNT
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_DEXAMOUNT
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_LUKAMOUNT
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_HPACCELERATION
+            MinValue: 5
+            MaxValue: 12
+            Chance: 10000
+          - Option: VAR_SPACCELERATION
+            MinValue: 5
+            MaxValue: 12
+            Chance: 10000
+          - Option: VAR_ATTPOWER
+            MinValue: 2
+            MaxValue: 8
+            Chance: 10000
+          - Option: VAR_HITSUCCESSVALUE
+            MinValue: 2
+            MaxValue: 8
+            Chance: 10000
+          - Option: VAR_ATTMPOWER
+            MinValue: 2
+            MaxValue: 8
+            Chance: 10000
+          - Option: VAR_ITEMDEFPOWER
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_MDEFPOWER
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_AVOIDSUCCESSVALUE
+            MinValue: 2
+            MaxValue: 8
+            Chance: 10000
+          - Option: VAR_PLUSAVOIDSUCCESSVALUE
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_CRITICALSUCCESSVALUE
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+      - Slot: 4
+        Options:
+          - Option: VAR_MAXHPAMOUNT
+            MinValue: 25
+            MaxValue: 75
+            Chance: 10000
+          - Option: VAR_MAXSPAMOUNT
+            MinValue: 12
+            MaxValue: 38
+            Chance: 10000
+          - Option: VAR_STRAMOUNT
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_AGIAMOUNT
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_VITAMOUNT
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_INTAMOUNT
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_DEXAMOUNT
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_LUKAMOUNT
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_HPACCELERATION
+            MinValue: 5
+            MaxValue: 12
+            Chance: 10000
+          - Option: VAR_SPACCELERATION
+            MinValue: 5
+            MaxValue: 12
+            Chance: 10000
+          - Option: VAR_ATTPOWER
+            MinValue: 2
+            MaxValue: 8
+            Chance: 10000
+          - Option: VAR_HITSUCCESSVALUE
+            MinValue: 2
+            MaxValue: 8
+            Chance: 10000
+          - Option: VAR_ATTMPOWER
+            MinValue: 2
+            MaxValue: 8
+            Chance: 10000
+          - Option: VAR_ITEMDEFPOWER
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_MDEFPOWER
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_AVOIDSUCCESSVALUE
+            MinValue: 2
+            MaxValue: 8
+            Chance: 10000
+          - Option: VAR_PLUSAVOIDSUCCESSVALUE
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+          - Option: VAR_CRITICALSUCCESSVALUE
+            MinValue: 2
+            MaxValue: 2
+            Chance: 10000
+  - Id: 6
+    Group: AFFIX_MVP
+    Slots:
+      - Slot: 1
+        Options:
+          - Option: VAR_MAXHPAMOUNT
+            MinValue: 30
+            MaxValue: 90
+            Chance: 10000
+          - Option: VAR_MAXSPAMOUNT
+            MinValue: 15
+            MaxValue: 45
+            Chance: 10000
+          - Option: VAR_STRAMOUNT
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_AGIAMOUNT
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_VITAMOUNT
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_INTAMOUNT
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_DEXAMOUNT
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_LUKAMOUNT
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_HPACCELERATION
+            MinValue: 6
+            MaxValue: 15
+            Chance: 10000
+          - Option: VAR_SPACCELERATION
+            MinValue: 6
+            MaxValue: 15
+            Chance: 10000
+          - Option: VAR_ATTPOWER
+            MinValue: 3
+            MaxValue: 9
+            Chance: 10000
+          - Option: VAR_HITSUCCESSVALUE
+            MinValue: 3
+            MaxValue: 9
+            Chance: 10000
+          - Option: VAR_ATTMPOWER
+            MinValue: 3
+            MaxValue: 9
+            Chance: 10000
+          - Option: VAR_ITEMDEFPOWER
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_MDEFPOWER
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_AVOIDSUCCESSVALUE
+            MinValue: 3
+            MaxValue: 9
+            Chance: 10000
+          - Option: VAR_PLUSAVOIDSUCCESSVALUE
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_CRITICALSUCCESSVALUE
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+      - Slot: 2
+        Options:
+          - Option: VAR_MAXHPAMOUNT
+            MinValue: 30
+            MaxValue: 90
+            Chance: 10000
+          - Option: VAR_MAXSPAMOUNT
+            MinValue: 15
+            MaxValue: 45
+            Chance: 10000
+          - Option: VAR_STRAMOUNT
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_AGIAMOUNT
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_VITAMOUNT
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_INTAMOUNT
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_DEXAMOUNT
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_LUKAMOUNT
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_HPACCELERATION
+            MinValue: 6
+            MaxValue: 15
+            Chance: 10000
+          - Option: VAR_SPACCELERATION
+            MinValue: 6
+            MaxValue: 15
+            Chance: 10000
+          - Option: VAR_ATTPOWER
+            MinValue: 3
+            MaxValue: 9
+            Chance: 10000
+          - Option: VAR_HITSUCCESSVALUE
+            MinValue: 3
+            MaxValue: 9
+            Chance: 10000
+          - Option: VAR_ATTMPOWER
+            MinValue: 3
+            MaxValue: 9
+            Chance: 10000
+          - Option: VAR_ITEMDEFPOWER
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_MDEFPOWER
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_AVOIDSUCCESSVALUE
+            MinValue: 3
+            MaxValue: 9
+            Chance: 10000
+          - Option: VAR_PLUSAVOIDSUCCESSVALUE
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_CRITICALSUCCESSVALUE
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+      - Slot: 3
+        Options:
+          - Option: VAR_MAXHPAMOUNT
+            MinValue: 30
+            MaxValue: 90
+            Chance: 10000
+          - Option: VAR_MAXSPAMOUNT
+            MinValue: 15
+            MaxValue: 45
+            Chance: 10000
+          - Option: VAR_STRAMOUNT
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_AGIAMOUNT
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_VITAMOUNT
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_INTAMOUNT
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_DEXAMOUNT
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_LUKAMOUNT
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_HPACCELERATION
+            MinValue: 6
+            MaxValue: 15
+            Chance: 10000
+          - Option: VAR_SPACCELERATION
+            MinValue: 6
+            MaxValue: 15
+            Chance: 10000
+          - Option: VAR_ATTPOWER
+            MinValue: 3
+            MaxValue: 9
+            Chance: 10000
+          - Option: VAR_HITSUCCESSVALUE
+            MinValue: 3
+            MaxValue: 9
+            Chance: 10000
+          - Option: VAR_ATTMPOWER
+            MinValue: 3
+            MaxValue: 9
+            Chance: 10000
+          - Option: VAR_ITEMDEFPOWER
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_MDEFPOWER
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_AVOIDSUCCESSVALUE
+            MinValue: 3
+            MaxValue: 9
+            Chance: 10000
+          - Option: VAR_PLUSAVOIDSUCCESSVALUE
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_CRITICALSUCCESSVALUE
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+      - Slot: 4
+        Options:
+          - Option: VAR_MAXHPAMOUNT
+            MinValue: 30
+            MaxValue: 90
+            Chance: 10000
+          - Option: VAR_MAXSPAMOUNT
+            MinValue: 15
+            MaxValue: 45
+            Chance: 10000
+          - Option: VAR_STRAMOUNT
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_AGIAMOUNT
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_VITAMOUNT
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_INTAMOUNT
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_DEXAMOUNT
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_LUKAMOUNT
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_HPACCELERATION
+            MinValue: 6
+            MaxValue: 15
+            Chance: 10000
+          - Option: VAR_SPACCELERATION
+            MinValue: 6
+            MaxValue: 15
+            Chance: 10000
+          - Option: VAR_ATTPOWER
+            MinValue: 3
+            MaxValue: 9
+            Chance: 10000
+          - Option: VAR_HITSUCCESSVALUE
+            MinValue: 3
+            MaxValue: 9
+            Chance: 10000
+          - Option: VAR_ATTMPOWER
+            MinValue: 3
+            MaxValue: 9
+            Chance: 10000
+          - Option: VAR_ITEMDEFPOWER
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_MDEFPOWER
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_AVOIDSUCCESSVALUE
+            MinValue: 3
+            MaxValue: 9
+            Chance: 10000
+          - Option: VAR_PLUSAVOIDSUCCESSVALUE
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_CRITICALSUCCESSVALUE
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+      - Slot: 5
+        Options:
+          - Option: VAR_MAXHPAMOUNT
+            MinValue: 30
+            MaxValue: 90
+            Chance: 10000
+          - Option: VAR_MAXSPAMOUNT
+            MinValue: 15
+            MaxValue: 45
+            Chance: 10000
+          - Option: VAR_STRAMOUNT
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_AGIAMOUNT
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_VITAMOUNT
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_INTAMOUNT
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_DEXAMOUNT
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_LUKAMOUNT
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_HPACCELERATION
+            MinValue: 6
+            MaxValue: 15
+            Chance: 10000
+          - Option: VAR_SPACCELERATION
+            MinValue: 6
+            MaxValue: 15
+            Chance: 10000
+          - Option: VAR_ATTPOWER
+            MinValue: 3
+            MaxValue: 9
+            Chance: 10000
+          - Option: VAR_HITSUCCESSVALUE
+            MinValue: 3
+            MaxValue: 9
+            Chance: 10000
+          - Option: VAR_ATTMPOWER
+            MinValue: 3
+            MaxValue: 9
+            Chance: 10000
+          - Option: VAR_ITEMDEFPOWER
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_MDEFPOWER
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_AVOIDSUCCESSVALUE
+            MinValue: 3
+            MaxValue: 9
+            Chance: 10000
+          - Option: VAR_PLUSAVOIDSUCCESSVALUE
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000
+          - Option: VAR_CRITICALSUCCESSVALUE
+            MinValue: 3
+            MaxValue: 3
+            Chance: 10000

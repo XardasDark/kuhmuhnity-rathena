@@ -1,0 +1,3 @@
+// Von Pterodactyl verwaltet – Werte stehen in conf/import/ptero_char.txt
+import: conf/import/ptero_char.txt
+

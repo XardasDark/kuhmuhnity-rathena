@@ -64,10 +64,11 @@ Thumbs.db
 /3rdparty/httplib/obj
 
 # /db/
-/db/import
+# KuhMuhnity: db/import wird versioniert
 
 # /conf/
-/conf/import
+# KuhMuhnity: conf/import wird versioniert, ausser den vom Panel erzeugten Dateien
+/conf/import/ptero_*.txt
 /conf/msg_conf/import
 
 # /lib
