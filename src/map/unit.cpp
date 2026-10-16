@@ -3259,6 +3259,10 @@ static int32 unit_attack_timer_sub(block_list* src, int32 tid, t_tick tick)
 
 	if(sd && !check_distance_client_bl(src,target,range)) {
 		// Player tries to attack but target is too far, notify client
+		// [KuhMuhnity] Position zuerst mit dem Client abgleichen: Der Client hielt das Ziel
+		// fuer erreichbar, der Server nicht. Ohne Korrektur verpufft der Angriff und die
+		// Positionen laufen weiter auseinander (Desync). Quelle: rathena.org/board/topic/132923
+		clif_fixpos( *src );
 		clif_movetoattack( *sd, *target );
 		return 1;
 	} else if(md && !check_distance_bl(src,target,range)) {
